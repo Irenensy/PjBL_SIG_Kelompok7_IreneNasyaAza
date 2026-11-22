@@ -1,8 +1,3 @@
-// ===========================================================
-// PETA RETAIL PONTIANAK SELATAN
-// circleMarker per merek + filter + MarkerCluster (divIcon)
-// ===========================================================
-
 // ---------- KONFIGURASI ----------
 const MAP_CENTER = [-0.0430, 109.3330];
 const MAP_ZOOM = 14;

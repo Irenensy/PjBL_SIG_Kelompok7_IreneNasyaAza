@@ -1,19 +1,24 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
   color: #1f2937;
   background: #f5f7fa;
 }
 
 .app-header {
-  background: linear-gradient(135deg, #0f3d2e, #2e7d32 60%, #66bb6a);
+  background: linear-gradient(135deg, #0b3c49, #14606e 60%, #1b7f8c);
   color: #fff;
   padding: 16px 24px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,.15);
 }
-.app-header h1 { font-size: 1.15rem; margin-bottom: 4px; }
+.app-header h1 {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
 .app-header p { font-size: .8rem; opacity: .9; }
 
 .app-container {
@@ -37,8 +42,9 @@ body {
   border: 1px solid #e2e8f0;
 }
 .panel h3 {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   font-size: .85rem;
-  color: #2e7d32;
+  color: #14606e;
   margin-bottom: 8px;
 }
 .hint { font-size: 12px; color: #475569; }
@@ -78,7 +84,8 @@ body {
 
 /* Popup */
 .leaflet-popup-content h4 {
-  color: #2e7d32;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  color: #14606e;
   font-size: 13px;
   margin: 0 0 8px;
 }
